@@ -9,8 +9,8 @@ git push -u origin main<br>
 <br>
 <br>
 ***pull branches repository from the command line***<br>
-git remote add origin https://github.com/Teeratach/TestGit.git<br>
-git pull <remote> <branch><br>
+git remote add origin https://github.com/Teeratach/TestGit.git <br>
 Assume we have new branches name as B2 <br>
+git "remote name" "branch name"<br>
 git pull origin B2<br>
 git push -u origin B2<br>
