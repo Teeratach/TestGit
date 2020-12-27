@@ -8,9 +8,14 @@ git remote add origin https://github.com/Teeratach/TestGit.git<br>
 git push -u origin main<br>
 <br>
 <br>
-***pull branches repository from the command line***<br>
+***Pull sub-branches***<br>
 git remote add origin https://github.com/Teeratach/TestGit.git <br>
 //Assume we have new branches name as B2 <br>
 //git "remote name" "branch name"<br>
 git pull origin B2<br>
 git push -u origin B2<br>
+<br>
+<br>
+***Pull main branches in sub-branches When main changed ***<br>
+git remote add origin https://github.com/Teeratach/TestGit.git <br>
+git pull origin main<br>
