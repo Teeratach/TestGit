@@ -19,3 +19,12 @@ git push -u origin B2<br>
 <h1>Pull main branches in sub-branches When main changed</h1><br>
 git remote add origin https://github.com/Teeratach/TestGit.git <br>
 git pull origin main<br>
+<br>
+<br>
+<h1>Request Merge Sub-branche to main</h1><br>
+git remote add origin https://github.com/Teeratach/TestGit.git <br>
+git fetch<br>
+git merge origin/main<br>
+// Actually, You can do on web by click pull request<br>
+// select base:main <- compare:B2 <br>
+// Click create pull request<br>
