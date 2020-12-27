@@ -23,4 +23,8 @@ git pull origin main<br>
 <br>
 <h1>Request Merge Sub-branche to main</h1><br>
 git remote add origin https://github.com/Teeratach/TestGit.git <br>
+git fetch<br>
 git merge origin/main<br>
+// Actually, You can do on web by click pull request<br>
+// select base:main <- compare:B2 <br>
+// Click create pull request<br>
